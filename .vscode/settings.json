@@ -1,0 +1,16 @@
+{
+  "azureFunctions.deploySubpath": ".",
+  "azureFunctions.enableRemoteDebugging": true,
+  "azureFunctions.scmDoBuildDuringDeployment": true,
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "files.exclude": {
+    "obj": true,
+    "bin": true
+  },
+  "azureFunctions.pythonVenv": "C:\\Users\\luczhan\\GitProjects\\azure-functions-python-worker\\worker_env",
+  "azureFunctions.preDeployTask": "func: extensions install",
+  "azureFunctions.templateFilter": "All",
+  "python.defaultInterpreterPath": "C:\\Users\\luczhan\\GitProjects\\azure-functions-python-worker\\worker_env\\Scripts\\python.exe"
+}
